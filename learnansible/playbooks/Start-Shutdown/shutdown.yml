@@ -1,0 +1,5 @@
+---
+  - hosts: all
+    tasks:
+      - name: shutdown loadbalancer
+        command: "init 0"
